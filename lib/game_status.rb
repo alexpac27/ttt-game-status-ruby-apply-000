@@ -60,8 +60,6 @@ end
 
 def winner(board)
 if won?(board) == true
-  return "X"
-else
-  return "O"
+  return won?(board)[0]
 end
 end
