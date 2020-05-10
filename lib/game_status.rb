@@ -41,7 +41,7 @@ def full?(board)
     return false
   elsif board.include?(nil)
     return false
-    
+
   else
     return true
   end
