@@ -59,10 +59,8 @@ def over?(board)
 end
 
 def winner(board)
-if won?(board) == true && board[won?(board)[0]] == "X"
-  return "X"
-elsif won?(board) == true && board[won?(board)[0]] == "O"
-  return "O"
+if won?(board)
+  return board[won?(board)[0]]
 else
   return nil
 end
