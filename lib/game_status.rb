@@ -31,5 +31,5 @@ else
 return false
 end
 }
-
+return win_combo
 end
