@@ -59,7 +59,7 @@ def over?(board)
 end
 
 def winner(board)
-
+if
   return "X"
 else
   return "O"
