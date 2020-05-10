@@ -35,4 +35,6 @@ def won?(board)
 end
 
 def full?(board)
+  board.include?("" || " " || nil)
+  if won?(board) == false && board.find
 end
