@@ -36,5 +36,6 @@ end
 
 def full?(board)
   if board.include?("" || " " || nil) == true
+    return false
   end
 end
