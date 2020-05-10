@@ -37,7 +37,7 @@ end
 def full?(board)
 
   if won?(board) != true && !board.include?("" || " " || nil)
-    return false
+    return true
   else
     return true
   end
