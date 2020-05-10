@@ -25,6 +25,9 @@ def won?(board)
     position_2 = win_index_2
     position_3 = win_index_3
 
-    position_1 == position_2 && position_2 == position_3}
+    position_1 == position_2 && position_2 == position_3
+  return true
+else
+return false}
 
 end
